@@ -1,136 +1,76 @@
-<<<<<<< HEAD
-/* style.css */
-
-body {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 16px;
-    color: #333;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    width: 90%;
-    margin: auto;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0;
-  }
-  
-  .container ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container ul li {
-    margin: 0 10px;
-    display: inline-block;
-  }
-  
-  .container ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 38px;
-    transition: 1s;
-  }
-  
-  .container p {
-    margin: 0;
-    padding: 0;
-    font-size: 1.8rem;
-    color: #fff;
-  }
-  
-  .container img {
-    width: 400px;
-    height: auto;
-    margin-top: 50px;
-  }
-  
-  .container #naslov {
-    margin-top: 50px;
-    font-size: 2.5rem;
-    color: #fff;
-    overflow: hidden;
-  }
-  
-  .blink-caret {
-    display: inline-block;
-    width: 0.5em;
-    height: 1.1em;
-    vertical-align: bottom;
-    border-right: 0.2em solid #fff;
-    animation: blink-caret 0.75s step-end infinite;
-  }
-  
-  @keyframes blink-caret {
-    from, to {
-      border-color: transparent;
-    }
-    50% {
-      border-color: #fff;
-    }
-  }
-  
-=======
 body{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 16px;
-    color: #333;
-    margin: 0;
-    padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 .container{
-    width: 90%;
-    margin: auto;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
 }
 
 .container ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .container ul li{
-    margin: 0 10px;
-    display: inline-block;
+  margin: 0 10px;
+  display: inline-block;
 }
 
 .container ul li a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 38px;
+  transition: 1s;
 }
 
 .container p{
-    margin: 0;
-    padding: 0;
-    font-size: 1.8rem;
-    color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+  color: #fff;
+  transition: 1s;
 }
 .container img{
-    width: 400px;
-    height: auto;
-    margin-top: 50px;
+  width: 400px;
+  height: auto;
+  margin-top: 50px;
+}
+.container #naslov{
+  margin-top: 50px;
+  font-size: 2.5rem;
+  color: #fff;
+  transition: 2s;
 }
 
 main{
-    height: 100vh;
+  height: 100vh;
 }
 main .showcase{
-    background-image: url("img/showcase.jpg");
-    background-position: center;
-    background-size: cover;
-    margin: auto;
-    overflow: hidden;
-    height: 100vh;
+  background-image: url("img/showcase.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  overflow: hidden;
+  height: 100vh;
 }
->>>>>>> 12e785483e47ee02e835303c984288babcc2bfc4
+main .showcase p{
+  color: #fff;
+}
+
+#naslov{
+  font-size: 2.5rem;
+  color: #fff;
+  transition: 2s;
+  overflow: hidden;
+}

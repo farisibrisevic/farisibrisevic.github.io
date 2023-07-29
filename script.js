@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // script.js
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -19,9 +18,3 @@ document.addEventListener('DOMContentLoaded', function () {
 
   type(); // Start the typing effect
 });
-=======
-window.onload=function(){
-    alert('Stranica je u izradi!');
-    window.location.href = "https://www.google.com";
-}
->>>>>>> 12e785483e47ee02e835303c984288babcc2bfc4
