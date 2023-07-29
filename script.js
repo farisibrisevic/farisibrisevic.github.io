@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (currentIndex < text.length) {
       typedTextElement.textContent += text.charAt(currentIndex);
       currentIndex++;
-      setTimeout(type, 100); // Adjust the typing speed (in milliseconds)
+      setTimeout(type, 50); // Adjust the typing speed (in milliseconds)
     } else {
       caretElement.style.visibility = 'hidden'; // Hide the caret when typing is complete
     }
