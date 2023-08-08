@@ -101,9 +101,11 @@ main .showcase p{
 }
 
 .about-container p{
-  font-size: 1.5rem;
+  font-size: 19px;
   color: #333;
   overflow: hidden;
+  padding-right: 5px;
+  text-align: justify;
 }
 
 .slika{
@@ -115,9 +117,168 @@ main .showcase p{
   height: auto;
   border-radius: 50px;
   box-shadow: 0 0 10px #333;
+  margin-left: 10px;
 }
 
 .slika img:hover{
   box-shadow: 0 0 20px #333;
   transition: 0.5s;
+}
+
+.cad{
+  background-color: #ccc;
+  margin: auto;
+  overflow: hidden;
+  height: auto;
+  padding: 25px;
+  display: flex;
+}
+.cad-tekst{
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+.cad-tekst h1{
+  font-size: 2.5rem;
+  color: #333;
+  overflow: hidden;
+  margin: 0;
+}
+.cad-tekst p{
+  font-size: 22px;
+  color: #333;
+  overflow: hidden;
+  margin-left: 15px;
+  text-align: justify;
+}
+.cad-slika{
+  width: 40%;
+}
+.cad-slika img{
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+}
+
+.cad-slika img:hover{
+  box-shadow: 0 0 20px #333;
+  transition: 0.5s;
+}
+
+.sysadmin{
+  background-color: #ccc;
+  margin: auto;
+  overflow: hidden;
+  height: auto;
+  padding: 25px;
+  display: flex;
+}
+.sysadmin-tekst{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+.sysadmin-tekst h1{
+  font-size: 2.5rem;
+  color: #333;
+  overflow: hidden;
+  margin: 20px;
+}
+.sysadmin-tekst p{
+  font-size: 30px;
+  color: #333;
+  overflow: hidden;
+  margin-left: 15px;
+  text-align: justify;
+}
+.certifikati{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #ccc;
+}
+
+.certifikati p{
+  font-size: 2.5rem;
+  color: #333;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.certifikati img{
+  width: 200px;
+  height: auto;
+  margin-bottom: 50px;
+}
+.certifikati-slike{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  height: 180px;
+  color: white;
+}
+footer p{
+  margin: 0;
+  padding: 0;
+}
+footer h3{
+  margin: 0;
+  padding: 0;
+}
+footer span{
+  color: #a6051a;
+}
+.fa-facebook{
+  color: #3b5998;
+  font-size: 2rem;
+  margin: 10px;
+}
+.fa-instagram{
+  color: #e4405f;
+  font-size: 2rem;
+  margin: 10px;
+}
+.fa-linkedin{
+  color: #0077b5;
+  font-size: 2rem;
+  margin: 10px;
+}
+.fa-github{
+  color: #171515;
+  font-size: 2rem;
+  margin: 10px;
+}
+.fa-envelope{
+  color:#08851b;
+  font-size: 2rem;
+  margin: 10px;
+}
+#poruka{
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  resize: none;
 }

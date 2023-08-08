@@ -18,3 +18,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
   type(); // Start the typing effect
 });
+
+
+document.getElementById('email-icon').addEventListener('click', function() {
+  // Replace 'your.email@example.com' with your actual email address
+  var emailAddress = 'your.email@example.com';
+
+  // Check if the user's device supports the 'mailto' protocol
+  if (window.navigator && window.navigator.msLaunchUri) {
+      // For Windows devices
+      window.navigator.msLaunchUri('mailto:' + emailAddress);
+  } else {
+      // For other devices
+      window.location.href = 'mailto:' + emailAddress;
+  }
+});
+
+
+
