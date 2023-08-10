@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.getElementById('email-icon').addEventListener('click', function() {
   // Replace 'your.email@example.com' with your actual email address
-  var emailAddress = 'your.email@example.com';
+  var emailAddress = 'faris.ibrisevic.22@size.ba';
 
   // Check if the user's device supports the 'mailto' protocol
   if (window.navigator && window.navigator.msLaunchUri) {
