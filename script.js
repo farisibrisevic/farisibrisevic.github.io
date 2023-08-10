@@ -1,5 +1,3 @@
-// script.js
-
 document.addEventListener('DOMContentLoaded', function () {
   const text = "Hi, my name is Faris Ibrišević and I am a software engineering student!";
   const typedTextElement = document.getElementById('typed-text');
@@ -10,9 +8,9 @@ document.addEventListener('DOMContentLoaded', function () {
     if (currentIndex < text.length) {
       typedTextElement.textContent += text.charAt(currentIndex);
       currentIndex++;
-      setTimeout(type, 50); // Adjust the typing speed (in milliseconds)
+      setTimeout(type, 50); 
     } else {
-      caretElement.style.visibility = 'hidden'; // Hide the caret when typing is complete
+      caretElement.style.visibility = 'hidden';
     }
   }
 
@@ -21,18 +19,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 document.getElementById('email-icon').addEventListener('click', function() {
-  // Replace 'your.email@example.com' with your actual email address
   var emailAddress = 'faris.ibrisevic.22@size.ba';
 
-  // Check if the user's device supports the 'mailto' protocol
   if (window.navigator && window.navigator.msLaunchUri) {
-      // For Windows devices
+
       window.navigator.msLaunchUri('mailto:' + emailAddress);
   } else {
-      // For other devices
+
       window.location.href = 'mailto:' + emailAddress;
   }
 });
-
-
-
