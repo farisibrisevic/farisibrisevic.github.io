@@ -273,6 +273,12 @@ footer span{
   font-size: 2rem;
   margin: 10px;
 }
+.fa-code{
+  color: #08851b;
+  font-size: 2rem;
+  margin: 10px;
+
+}
 #poruka{
   height: 100px;
   margin: 10px;
@@ -281,7 +287,6 @@ footer span{
   border-radius: 5px;
   resize: none;
 }
-
 .f1{
   width: 100%;
   height: auto;
@@ -381,7 +386,6 @@ footer span{
   transition: 0.5s;
   scale: 104%;
 }
-
 /*Responzivnost - mobiteli */
 @media (max-width: 500px){
 
@@ -676,7 +680,4 @@ footer h3{
 footer span{
   color: #a6051a;
 }
-
-
-
 }
