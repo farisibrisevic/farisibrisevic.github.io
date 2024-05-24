@@ -366,6 +366,21 @@ footer span{
   padding: 0;
   font-size: larger;
 }
+.container ul li a:hover{
+  color: #a6051a;
+  transition: 0.5s;
+  scale: 1.2;
+}
+.slika img:hover{
+  box-shadow: 0 0 20px #333;
+  transition: 0.5s;
+  scale: 104%;
+}
+.certifikati img:hover{
+  box-shadow: 0 0 20px #333;
+  transition: 0.5s;
+  scale: 104%;
+}
 
 /*Responzivnost - mobiteli */
 @media (max-width: 500px){
